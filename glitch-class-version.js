@@ -39,7 +39,7 @@ class Glitch {
    */
   addImage(t) {
     for (let i = 0; i < this.dataArr.length ; i++) {
-      if (Math.random() > 0.01) {
+      if (Math.random() > 0.005) {
         this.ctx.putImageData(
           this.dataArr[i],
           Math.sin(this.heightArr[i] * 0.1 + t) * 3 * Math.random(),
