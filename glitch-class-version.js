@@ -1,9 +1,9 @@
 /**
  * @class - glitch class
- * @params {number} width - canvas width
- * @params {number} height - canvas height
- * @params {number} min - split min number
- * @params {number} max - split max number
+ * @param {number} width - canvas width
+ * @param {number} height - canvas height
+ * @param {number} min - split min number
+ * @param {number} max - split max number
  */
 class Glitch {
   constructor(ctx, width, height, min, max) {
@@ -17,7 +17,7 @@ class Glitch {
   }
 
   /**
-   * @params {number} t - time
+   * @param {number} t - time
    */
   getImageData(t) {
     let preHeight = 0;
@@ -35,7 +35,7 @@ class Glitch {
   }
 
   /**
-   * @params {number} t - time
+   * @param {number} t - time
    */
   addImage(t) {
     for (let i = 0; i < this.dataArr.length ; i++) {
@@ -56,7 +56,7 @@ class Glitch {
   }
 
   /**
-   * @params {number} t - time
+   * @param {number} t - time
    */
   render(t) {
     this.dataArr = [];

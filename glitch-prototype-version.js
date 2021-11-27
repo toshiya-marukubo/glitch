@@ -1,9 +1,9 @@
 /**
  * @class - glitch class
- * @params {number} width - canvas width
- * @params {number} height - canvas height
- * @params {number} min - split min number
- * @params {number} max - split max number
+ * @param {number} width - canvas width
+ * @param {number} height - canvas height
+ * @param {number} min - split min number
+ * @param {number} max - split max number
  */
  function Glitch(ctx, width, height, min, max) {
   this.ctx = ctx;
@@ -16,7 +16,7 @@
 }
 
 /**
- * @params {number} t - time
+ * @param {number} t - time
  */
 Glitch.prototype.getImageData = function(t) {
   let preHeight = 0;
@@ -34,7 +34,7 @@ Glitch.prototype.getImageData = function(t) {
 };
 
 /**
- * @params {number} t - time
+ * @param {number} t - time
  */
 Glitch.prototype.addImage = function(t) {
   for (let i = 0; i < this.dataArr.length ; i++) {
@@ -55,7 +55,7 @@ Glitch.prototype.addImage = function(t) {
 };
 
 /**
- * @params {number} t - time
+ * @param {number} t - time
  */
 Glitch.prototype.render = function(t) {
   this.dataArr = [];
