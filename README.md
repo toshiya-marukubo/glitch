@@ -1,5 +1,5 @@
 # Glitch
-It is be able to add glitch effect to canvas.  
+It is able to add glitch effect to canvas.  
 Demo on CodePen [https://codepen.io/toshiya-marukubo/full/ExvzLxJ](https://codepen.io/toshiya-marukubo/full/ExvzLxJ) 
 ## How to use
 It is easy to use it.
