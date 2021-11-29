@@ -23,6 +23,7 @@ class Glitch {
   getImageData(t) {
     let preHeight = 0;
     let addHeight = 0;
+
     for (let i = 0; i < this.height; i += addHeight) {
       addHeight = Math.floor((this.max - this.min) * Math.random() + this.min);
 
