@@ -5,7 +5,7 @@
  * @param {number} min - split min number
  * @param {number} max - split max number
  */
- function Glitch(ctx, width, height, min, max) {
+function Glitch(ctx, width, height, min, max) {
   this.ctx = ctx;
   this.width = width;
   this.height = height;
@@ -16,6 +16,7 @@
 }
 
 /**
+ * Get splited image datas.
  * @param {number} t - time
  */
 Glitch.prototype.getImageData = function(t) {
@@ -34,6 +35,7 @@ Glitch.prototype.getImageData = function(t) {
 };
 
 /**
+ * Add images on canvas.
  * @param {number} t - time
  */
 Glitch.prototype.addImage = function(t) {
@@ -55,6 +57,7 @@ Glitch.prototype.addImage = function(t) {
 };
 
 /**
+ * Render images.
  * @param {number} t - time
  */
 Glitch.prototype.render = function(t) {
