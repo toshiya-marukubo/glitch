@@ -1,7 +1,7 @@
-# Glitch
+## Glitch
 It is able to add glitch effect to canvas.  
 Demo on CodePen [https://codepen.io/toshiya-marukubo/full/ExvzLxJ](https://codepen.io/toshiya-marukubo/full/ExvzLxJ) 
-## How to use
+### How to use
 It is easy to use it.
 - Parameters
   - ctx : canvas context
